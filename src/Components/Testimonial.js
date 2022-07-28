@@ -44,13 +44,13 @@ const Testimonial = () => {
     <div className='md:mt-40 mt-20 items-center justify-center text-center font-heading'>
     <h6 className='text-sm text-secondary'>~ TESTIMONIAL ~</h6>
        <h2 className='text-3xl'>Comments on Food We Deliver</h2>
-    <Slider {...settings} className="md:mt-20 mt-10">
+      <Slider {...settings} className="md:mt-20 w-[calc(100%-20px-20px)] mt-10">
      {
        images.map((img, index)=>(
          <div className='' key={index}>
            <img 
            className='md:w-[100%] w-40%'
-           src={img1} alt=""/>
+           src={img} alt=""/>
          </div>
        ))
      }

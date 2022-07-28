@@ -4,7 +4,7 @@ import img2 from '../assets/images/erick.png'
 
 const Reviews = () => {
   return (
-    <div className='md:flex mt-20  md:mx-20 md:ml-7 ml-4 text-center justify-center'>
+    <div className='md:flex mt-20 md:mx-20 md:ml-7 ml-4 text-center justify-center'>
           <div>
               <div className='flex items-center justify-center text-center relative z-20 mr-4'> 
               <img className='w-50 md:w-[80%] w-[60%] md:ml-10 ml-0 relative md:h-[70%]' src={img1}/>

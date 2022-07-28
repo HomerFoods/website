@@ -4,3 +4,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+div .swiper-pagination-bullet-active {
+    background: #F9CF6B;
+}
+
+.mySwiper {
+    padding-bottom: 42px !important;
+}
