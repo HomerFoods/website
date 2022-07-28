@@ -17,6 +17,7 @@ const SliderComponent = () => {
       grabCursor={true}
       centeredSlides={true}
       slidesPerView={4}
+      initialSlide={4}
       coverflowEffect={{
         rotate: 0,
         stretch: 0,
