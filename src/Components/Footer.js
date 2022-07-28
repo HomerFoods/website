@@ -5,26 +5,44 @@ import twitter from '../assets/images/twitter.png'
 
 const Footer = () => {
   return (
-    <div className='items-center justify-center text-center font-heading md:mt-10 mt-10'>
-         <hr className=' mx-3 text-section'></hr>
-        <h2 className='md:mt-4 mt-4 font-extrabold'>Homer Foods</h2>
-        <p className='md:text-base text-tiny'>Homer foods is  an online food  ordering platform that brings foreigners 
-         a taste of their  homeland meals</p>
-         <hr className='mt-5 mx-3 text-section'></hr>
-         <div className='md:flex flex-row justify-between md:mt-5 mt-3 md:pb-10'> 
-         <h6 className='md:mx-4 text-sm md:text-base'>Copyright © 2022 Homer Foods. All rights reserved.</h6>
-         <div className='md:flex flex text-center items-center justify-center text-sm md:text-base'>
-             <h6 className='cursor-pointer md:mx-3 mx-3' >Help</h6>
-             <h6 className='cursor-pointer md:mx-3 mx-3' >Privacy</h6>
-             <h6 className='cursor-pointer md:mx-3 mx-3' >Terms</h6>
-         </div>
-         <div className='md:flex flex text-center items-center justify-center md:pb-0 pb-2'>
-            <img className='md:w-[8%] md:h-[90%] w-[3%]  cursor-pointer md:mx-3 mx-3' src={fb}/>
-            <img className='md:w-[8%] md:h-[90%] w-[3%] cursor-pointer md:mx-3 mx-3' src={ig}/>
-            <img className='md:w-[8%] md:h-[90%] w-[3%] cursor-pointer md:mx-3 mx-3' src={twitter}/>
-         </div>
-         </div>
-    </div>
+  <div>
+     <div className='md:flex justify-between md:px-20 p-5 pt-20 bg-blackfooter font-heading'>
+       <div>
+         <h4 className='text-secondary font-bold'>HOMER FOODS</h4>
+         <span className='flex md:justify-between justify-start mt-5 text-white text-lg'>
+         <ion-icon name="logo-facebook"></ion-icon>
+         <ion-icon name="logo-instagram"></ion-icon>
+         </span>
+         <span className='flex md:justify-between justify-start text-white mt-4 text-lg'>
+         <ion-icon name="mail-outline"></ion-icon>
+         <ion-icon name="logo-twitter"></ion-icon>
+         </span>
+       </div>
+       <div className='text-white cursor-pointer md:mt-0 mt-10'>
+         <h4 className=''>Our Product</h4>
+         <p className='text-sm mt-2 font-light'>Support</p>
+         <p className='text-sm mt-2 font-light'>Guide</p>
+       </div>
+       <div className='text-white cursor-pointer md:mt-0 mt-10'>
+         <h4 className=''>Terms and Policies</h4>
+         <p className='text-sm mt-2 font-light'>Terms of Service</p>
+         <p className='text-sm mt-2 font-light'>Privacy Policy</p>
+       </div>
+       <div className='text-white cursor-pointer md:mt-0 mt-10'>
+         <h4 className=''>Company</h4>
+         <p className='text-sm mt-4 font-light'>Home</p>
+         <p className='text-sm mt-2 font-light'>About us</p>
+         <p className='text-sm mt-2 font-light'>Services</p>
+       </div>
+       <div className='text-white cursor-pointer md:mt-0 mt-10'>
+         <h4 className=''>Contact</h4>
+         <p className='text-sm mt-2 font-light'>+60 (533 066 8900)</p>
+         <p className='text-sm mt-2'>hello@homerfoods.app</p>
+       </div>
+   </div>
+
+   <p className='text-sm font-heading bg-blackfooter text-center text-white pb-5 pt-10'> © Homer Foods 2022 - All Rights Reserved</p>
+  </div>
   )
 }
 

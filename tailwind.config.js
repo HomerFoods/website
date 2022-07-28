@@ -12,6 +12,7 @@ module.exports = {
        'primary': '#FF7E70',
        'secondary': '#F9CF6B',
        'button': '#C8151D',
+       'blackfooter': '#222224',
        'section': ('rgba(243,245,254,255)'),
        'sectiond': ('rgba(228,230,244,255)'),
        

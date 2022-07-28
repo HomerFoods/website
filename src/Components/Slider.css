@@ -1,0 +1,60 @@
+/*****************************************
+*  --------------------------------------*
+*  General                               *
+*  --------------------------------------*
+*****************************************/
+
+
+.container { 
+  padding: 50px; 
+}
+
+
+/*****************************************
+*  --------------------------------------*
+*  Slick                                 *
+*  --------------------------------------*
+*****************************************/
+
+.cl {
+  height:200px;
+  padding:10px;
+}
+
+.cl-yellow { 
+  background: #f1c40f; 
+}
+
+.cl-blue { 
+  background: #3498db; 
+}
+
+.cl-red { 
+  background: #e74c3c; 
+}
+
+.slick-active { 
+  padding: 20px 0; 
+}
+
+.slick-center { 
+  transform: scale(1.08) 
+}
+
+.slick-slide:not(.slick-active) { 
+  margin: 20px 0; 
+}
+
+.child { 
+  width:100%; 
+}
+
+.slide:not(.slick-active) { 
+  cursor: pointer; 
+}
+
+.pagination {
+  text-align: center; 
+  color: white;
+  font-size: 1.2rem;
+}
