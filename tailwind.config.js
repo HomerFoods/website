@@ -6,11 +6,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ['Montserrat', 'sans-serif']
+        heading: ['Montserrat', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif']
       },
       colors: {
        'primary': '#FF7E70',
        'secondary': '#F9CF6B',
+       'faq': '#FFDD7D',
        'button': '#C8151D',
        'blackfooter': '#222224',
        'section': ('rgba(243,245,254,255)'),

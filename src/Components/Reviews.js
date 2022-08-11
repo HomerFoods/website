@@ -18,11 +18,11 @@ const Reviews = () => {
                className='md:w-[8%] w-[10%] md:ml-4 ml-2'
                src={img2}/>
              <div className='text-start m-1'>
-               <h6 className='font-bold ml-1'>Erick Smith</h6>
-               <p className='font-medium text-sm mx-2 text-gray-400'>Food Vlogger</p>
+               <h6 className='font-bold ml-1'>Hassan Amir</h6>
+               <p className='font-medium text-sm mx-2 text-gray-400'>Data Scientist</p>
              </div>
         </div>
-        <p className='text-gray-400 text-sm text-start md:ml-4 ml-2 mt-3'>“All service provided is so perfect and fast, and im so happy to order from this company”</p>
+        <p className='text-gray-400 text-sm text-start md:ml-4 ml-2 mt-3'>“I would love to see this being released soon !”</p>
        <div className='flex mt-3'>
        <h6 className='mx-1 md:ml-4 ml-2'>5.0</h6>
         <span className='text-secondary'>

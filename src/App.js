@@ -8,18 +8,23 @@ import Slider from "./Components/SliderComponent";
 import Testimonial from "./Components/Testimonial";
 import Reviews from "./Components/Reviews";
 import Newsletter from "./Components/Newsletter";
+import Waitlist from "./Components/Waitlist";
+import WaitlistHeader from "./Components/WaitlistHeader";
 
 function App() {
   return (
     <div className='mt-0'>
-      <NavBar/>
-    <Header/>
+      <WaitlistHeader/>
+      <Waitlist/>
+  {/* 
+  <NavBar/>
+   <Header/>
     <Support/>
     <Services/>
     <Slider/>
     <Testimonial/>
     <Reviews/>
-    <Newsletter/>
+    <Newsletter/>*/}
     <Footer/>
     </div>
   );
