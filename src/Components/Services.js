@@ -14,21 +14,21 @@ const UsersSection = () => {
             className='md:w-[90%] w-[50%]'
             src={img1}/>
             <h4 className='font-extrabold text-lg md:mt-5'>Food Delivery</h4>
-            <p className='text-gray-500 md:text-base text-sm md:mt-3 md:mx-50'>Lorem ipsum dolor sit amet, consectetur </p>
+            <p className='text-gray-500 md:text-base text-sm md:mt-3 md:mx-50'>Ordering made easier with our super fast delivery system</p>
           </div>
           <div className='md:mx-28 md:flex flex flex-col items-center justify-center text-center md:mt-0 mt-10'>
             <img 
             className='md:w-[90%]'
             src={img2}/>
             <h4 className='font-extrabold text-lg md:mt-5'>Find Restaurnts</h4>
-            <p className='text-gray-500 md:text-base text-sm md:mt-3 md:mx-50'>Lorem ipsum dolor sit amet, consectetur </p>
+            <p className='text-gray-500 md:text-base text-sm md:mt-3 md:mx-50'>Find Restaurants or Food vendors nearby with just a click! </p>
           </div>
           <div className='md:mx-28 md:flex flex flex-col items-center justify-center text-center md:mt-0 mt-10'>
             <img 
             className='md:w-[90%]'
             src={img3}/>
             <h4 className='font-extrabold text-lg md:mt-5'>Pre Order</h4>
-            <p className='text-gray-500 md:text-base text-sm md:mt-3 md:mx-50'>Lorem ipsum dolor sit amet, consectetur </p>
+            <p className='text-gray-500 md:text-base text-sm md:mt-3 md:mx-50'>Dont want to order now? well with the pre order feature you can order ahead </p>
           </div>
        </div>
    </div>

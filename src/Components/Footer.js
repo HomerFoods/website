@@ -36,7 +36,7 @@ const Footer = () => {
        </div>
        <div className='text-white cursor-pointer md:mt-0 mt-10'>
          <h4 className=''>Contact</h4>
-         <p className='text-sm mt-2 font-light'>+60 (533 066 8900)</p>
+         <p className='text-sm mt-2 font-light'>+90 (533 066 8900)</p>
          <p className='text-sm mt-2'>hello@homerfoods.app</p>
        </div>
    </div>
