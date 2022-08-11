@@ -6,7 +6,6 @@ import img1 from '../assets/images/Testimonial.png'
 
 
 
-
 const Testimonial = () => {
   const images = [img1, img1, img1, img1]
 
