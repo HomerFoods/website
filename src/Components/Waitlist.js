@@ -54,9 +54,9 @@ const Waitlist = () => {
             <img src={preorder} 
              className='w-[20%] h-[20%]'/>
         </div>
-        <div className='mt-20 items-center justify-center flex flex-col mx-10'>
+        <div className='mt-20 items-center justify-center w-[50%] min-w-[350px] flex flex-col mx-10'>
            <h4 className='text-white text-3xl'>Frequently Asked Questions</h4>
-           <div className='border-white border-2 rounded-md bg-faq p-3 w-[140%] max-w-[150%] mx-10 items-center text-white mt-10'>
+           <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-white mt-10'>
                   <div className='text-start flex justify-between'>
                   <h6 className='text-white'>What can i use the app for ?</h6>
                   <span  onClick={() => setOpen(!open)} className='transition-all duration-500 ease-in cursor-pointer' >
@@ -67,7 +67,7 @@ const Waitlist = () => {
                      <p className={`text-sm text-start max-w-[30%] ${open ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
                  </span>
            </div>
-           <div className='border-white border-2 rounded-md bg-faq p-3 w-[140%] max-w-[150%] mx-10 items-center text-white mt-10'>
+           <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-white mt-10'>
                   <div className='text-start flex justify-between'>
                   <h6 className='text-white'>What can i use the app for ?</h6>
                   <span  onClick={() => setOpen(!open)} className='transition-all duration-500 ease-in cursor-pointer' >
@@ -78,7 +78,7 @@ const Waitlist = () => {
                      <p className={`text-sm text-start max-w-[30%] ${open ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
                  </span>
            </div>
-           <div className='border-white border-2 rounded-md bg-faq p-3 w-[140%] max-w-[150%] mx-10 items-center text-white mt-10'>
+           <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-white mt-10'>
                   <div className='text-start flex justify-between'>
                   <h6 className='text-white'>What can i use the app for ?</h6>
                   <span  onClick={() => setOpen(!open)} className='transition-all duration-500 ease-in cursor-pointer' >
@@ -89,7 +89,7 @@ const Waitlist = () => {
                      <p className={`text-sm text-start max-w-[30%] ${open ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
                  </span>
            </div>
-           <div className='border-white border-2 rounded-md bg-faq p-3 w-[140%] max-w-[150%] mx-10 items-center text-white mt-10'>
+           <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-white mt-10'>
                   <div className='text-start flex justify-between'>
                   <h6 className='text-white'>What can i use the app for ?</h6>
                   <span  onClick={() => setOpen(!open)} className='transition-all duration-500 ease-in cursor-pointer' >
@@ -100,7 +100,7 @@ const Waitlist = () => {
                      <p className={`text-sm text-start max-w-[30%] ${open ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
                  </span>
            </div>
-           <div className='border-white border-2 rounded-md bg-faq p-3 w-[140%] max-w-[150%] mx-10 items-center text-white mt-10'>
+           <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-white mt-10'>
                   <div className='text-start flex justify-between'>
                   <h6 className='text-white'>What can i use the app for ?</h6>
                   <span  onClick={() => setOpen(!open)} className='transition-all duration-500 ease-in cursor-pointer' >
