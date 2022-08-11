@@ -6,8 +6,9 @@ import preorder from '../assets/images/preorder.png'
 
 const Waitlist = () => {
 
-    const APIURL = 'https://homerfoods.app/waitlist/add'
-    const [email, setEmail] = useState('')
+    const APIURL = 'https://homerfoods.app/api/waitlist/add'
+    const [email, setEmail] = useState('');
+    const [name, setName] = useState('');
     const [open, setOpen] = useState({
         one: true,
         two: true,
@@ -17,7 +18,7 @@ const Waitlist = () => {
     })
 
     async function join() {
-        const item = {email}
+        const item = {email, name}
          const result = await fetch(APIURL, {
            method: 'POST',
            body:JSON.stringify(item),
@@ -39,13 +40,21 @@ const Waitlist = () => {
        <div className='flex flex-col items-center justify-center text-center pt-10'>
         <h4 className='text-3xl'>Taste home away from Home</h4>
         <h6>with <span className='font-extrabold text-32xl'>HomerFoods</span></h6>
-        <div className='flex mt-3'>
+        <div className='flex flex-col mt-3 items-center w-[340px]'>
+
         <input
-          className='rounded-md w-[180%] mx-2 mt-2 md:mt-0 text-xc md:text-base border-2 border-black p-2'
+          className='w-full mb-3 mx-2 outline-none mt-2 md:mt-0 text-xc md:text-base border hover:border-black border-[#6e6e6e] p-2'
           placeholder='Your Name'
           value={email} onChange={(e) => setEmail(e.target.value) }
           />
-          <button className='text-white w-[70%] bg-button rounded-md' onClick={join}>Join Waitlist</button>
+
+          <input
+            className='mx-2 mb-2 w-full outline-none mt-2 md:mt-0 text-xc md:text-base border hover:border-black border-[#6e6e6e] p-2'
+            placeholder='Your Email'
+            value={name} onChange={(e) => setName(e.target.value)}
+          />
+
+          <button className='text-white p-2 w-[70%] bg-button rounded-md' onClick={join}>Join Waitlist</button>
         </div>
         <div className='flex mx-10 justify-between mt-20'>
             <img src={delivery}
