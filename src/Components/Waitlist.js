@@ -43,13 +43,13 @@ const Waitlist = () => {
         <div className='flex flex-col mt-3 items-center w-[340px]'>
 
         <input
-          className='w-full mb-3 mx-2 outline-none mt-2 md:mt-0 text-xc md:text-base border hover:border-black border-[#6e6e6e] p-2'
+          className='w-full mb-3 mx-2 outline-none mt-2 md:mt-0 text-xc md:text-base border hover:border-black border-[#6e6e6e] p-2 rounded-md'
           placeholder='Your Name'
           value={email} onChange={(e) => setEmail(e.target.value) }
           />
 
           <input
-            className='mx-2 mb-2 w-full outline-none mt-2 md:mt-0 text-xc md:text-base border hover:border-black border-[#6e6e6e] p-2'
+            className='mx-2 mb-2 w-full outline-none mt-1 md:mt-0 text-xc md:text-base border hover:border-black border-[#6e6e6e] p-2 rounded-md'
             placeholder='Your Email'
             value={name} onChange={(e) => setName(e.target.value)}
           />
@@ -58,16 +58,16 @@ const Waitlist = () => {
         </div>
         <div className='flex mx-10 justify-between mt-20'>
             <img src={delivery}
-            className='w-[20%] h-[20%]'
+            className='w-[8%] h-[8%]'
             />
             <img src={home} 
-            className='mt-20 mx-5'
+            className='mt-20 mx-5 w-[35%] '
             />
             <img src={orderdetails}
-            className='mx-5'
+            className='mx-5 w-[35%]'
             />
             <img src={preorder} 
-             className='w-[20%] h-[20%]'/>
+             className='w-[8%] h-[8%]'/>
         </div>
         <div className='mt-20 items-center justify-center w-[50%] min-w-[350px] flex flex-col mx-10'>
            <h4 className='text-white text-3xl'>Frequently Asked Questions</h4>
