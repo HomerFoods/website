@@ -29,7 +29,7 @@ const Waitlist = () => {
         })
         .then(res => res.json())
           .then(data => {
-            alert.info(data.message)
+            console.log(data)
           })
         return result
         
@@ -45,13 +45,13 @@ const Waitlist = () => {
         <input
           className='w-full mb-3 mx-2 outline-none mt-2 md:mt-0 text-xc md:text-base border hover:border-black border-[#6e6e6e] p-2 rounded-md'
           placeholder='Your Name'
-          value={email} onChange={(e) => setEmail(e.target.value) }
+          value={name} onChange={(e) => setName(e.target.value) }
           />
 
           <input
             className='mx-2 mb-2 w-full outline-none mt-1 md:mt-0 text-xc md:text-base border hover:border-black border-[#6e6e6e] p-2 rounded-md'
             placeholder='Your Email'
-            value={name} onChange={(e) => setName(e.target.value)}
+            value={email} onChange={(e) => setEmail(e.target.value)}
           />
 
           <button className='text-white p-2 w-[70%] bg-button rounded-md' onClick={join}>Join Waitlist</button>
