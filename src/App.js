@@ -13,7 +13,7 @@ import WaitlistHeader from "./Components/WaitlistHeader";
 
 function App() {
   return (
-    <div className='mt-0'>
+    <div className='mt-0 font-poppins'>
       <WaitlistHeader/>
       <Waitlist/>
   {/* 
