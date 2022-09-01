@@ -88,60 +88,60 @@ const Waitlist = () => {
    {/*FAQ*/}
        <div className='w-[100%] bg-secondary items-center justify-center flex md:mt-0 pb-6'>
        <div className='mt-20 items-center justify-center w-[70%] min-w-[350px] flex flex-col md:px-4 mx-0 bg-secondary'>
-           <h4 className='text-white text-3xl'>Frequently Asked Questions</h4>
-           <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-white mt-10'>
+           <h4 className='text-[#121212] font-bold text-3xl'>Frequently Asked Questions</h4>
+            <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-[#363636] mt-10'>
                   <div className='text-start flex justify-between'>
-                  <h6 className='text-white'>What can i use the app for ?</h6>
+                <h6 className='text-[#363636] font-semibold'>What can i use the app for ?</h6>
               <span onClick={() => setOpen({ ...open, one: !open.one })} className='transition-all duration-500 ease-in cursor-pointer' >
                   <ion-icon name={open.one ? 'chevron-down-outline'  : 'chevron-up-outline'}></ion-icon>
                   </span>
                   </div>
                  <span className='max-w-[10%]'> 
-                     <p className={`text-sm text-start max-w-[30%] ${open.one ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
+                <p className={`text-sm text-[#484848] text-start ${open.one ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
                  </span>
            </div>
-           <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-white mt-2'>
+            <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-[#363636] mt-2'>
                   <div className='text-start flex justify-between'>
-                  <h6 className='text-white'>What can i use the app for ?</h6>
+                <h6 className='text-[#363636] font-semibold'>What can i use the app for ?</h6>
                   <span  onClick={() => setOpen({...open, two: !open.two})} className='transition-all duration-500 ease-in cursor-pointer' >
                   <ion-icon name={open.two ? 'chevron-down-outline'  : 'chevron-up-outline'}></ion-icon>
                   </span>
                   </div>
                  <span className='max-w-[10%]'> 
-                     <p className={`text-sm text-start max-w-[30%] ${open.two ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
+                <p className={`text-sm text-[#484848] text-start  ${open.two ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
                  </span>
            </div>
-           <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-white mt-2'>
+            <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-[#363636] mt-2'>
                   <div className='text-start flex justify-between'>
-                  <h6 className='text-white'>What can i use the app for ?</h6>
+                <h6 className='text-[#363636] font-semibold'>What can i use the app for ?</h6>
               <span onClick={() => setOpen({ ...open, three: !open.three })} className='transition-all duration-500 ease-in cursor-pointer' >
                   <ion-icon name={open.three ? 'chevron-down-outline'  : 'chevron-up-outline'}></ion-icon>
                   </span>
                   </div>
                  <span className='max-w-[10%]'> 
-                     <p className={`text-sm text-start max-w-[30%] ${open.three ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
+                     <p className={`text-sm text-[#484848] text-start  ${open.three ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
                  </span>
            </div>
-           <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-white mt-2'>
+            <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-[#363636] mt-2'>
                   <div className='text-start flex justify-between'>
-                  <h6 className='text-white'>What can i use the app for ?</h6>
+                <h6 className='text-[#363636] font-semibold'>What can i use the app for ?</h6>
               <span onClick={() => setOpen({ ...open, four: !open.four })} className='transition-all duration-500 ease-in cursor-pointer' >
                   <ion-icon name={open.four ? 'chevron-down-outline'  : 'chevron-up-outline'}></ion-icon>
                   </span>
                   </div>
                  <span className='max-w-[10%]'> 
-                     <p className={`text-sm text-start max-w-[30%] ${open.four ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
+                     <p className={`text-sm text-[#484848] text-start ${open.four ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
                  </span>
            </div>
-           <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-white mt-2'>
+            <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-[#363636] mt-2'>
                   <div className='text-start flex justify-between'>
-                  <h6 className='text-white'>What can i use the app for ?</h6>
+                <h6 className='text-[#363636] font-semibold'>What can i use the app for ?</h6>
               <span onClick={() => setOpen({ ...open, five: !open.five })} className='transition-all duration-500 ease-in cursor-pointer' >
                   <ion-icon name={open.five ? 'chevron-down-outline'  : 'chevron-up-outline'}></ion-icon>
                   </span>
                   </div>
                  <span className='max-w-[10%]'> 
-                     <p className={`text-sm text-start max-w-[30%] ${open.five ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
+                     <p className={`text-sm text-[#484848] text-start  ${open.five ? ' hidden top-20': 'opacity-100'}`}>What can i use the app for and design development? and hel my whitespace-pre-wrap  and lets see if this works</p>
                  </span>
            </div>
            
