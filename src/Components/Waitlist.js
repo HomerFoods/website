@@ -65,7 +65,7 @@ const Waitlist = () => {
             value={name} onChange={(e) => setName(e.target.value)}
           />
 
-          <button className='text-white p-2 w-[80%] bg-redesign rounded-md mx-2' onClick={join}>Join Waitlist</button>
+          <button className='text-white mt-2 p-2 w-[80%] bg-redesign rounded-md mx-2' onClick={join}>Join Waitlist</button>
         </div>
 
      </div>
@@ -74,7 +74,7 @@ const Waitlist = () => {
 
    {/*MOBILEPHONE*/}
 
-   <div className='bg-secondary mt-10 p-20 w-[100%] items-center justify-center flex'>
+   <div className='bg-secondary mt-10 px-20 pt-10 w-[100%] items-center justify-center flex'>
      <img
      className='md:w-[40%]'
      src={waitlistn}
@@ -86,7 +86,7 @@ const Waitlist = () => {
   
 
    {/*FAQ*/}
-       <div className='w-[100%] bg-secondary items-center justify-center flex md:mt-0 pb-4'>
+       <div className='w-[100%] bg-secondary items-center justify-center flex md:mt-0 pb-6'>
        <div className='mt-20 items-center justify-center w-[70%] min-w-[350px] flex flex-col md:px-4 mx-0 bg-secondary'>
            <h4 className='text-white text-3xl'>Frequently Asked Questions</h4>
            <div className='border-white border-2 rounded-md bg-faq p-3 w-full mx-10 items-center text-white mt-10'>
