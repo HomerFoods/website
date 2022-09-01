@@ -12,3 +12,8 @@ div .swiper-pagination-bullet-active {
 .mySwiper {
     padding-bottom: 42px !important;
 }
+
+@font-face {
+    font-family: "YUKITA";
+    src: url("../public/fonts/Yukita/yukita-sans.medium.otf");
+}
