@@ -6,12 +6,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ['Montserrat', 'sans-serif'],
-        poppins: ['Poppins', 'sans-serif']
+        poppins: ['Poppins', 'sans-serif'],
+        yukita: ['YUKITA', 'sans-serif']
       },
       colors: {
        'primary': '#FF7E70',
        'secondary': '#F9CF6B',
+       'redesign': '#FF9012',
        'faq': '#FFDD7D',
        'button': '#C8151D',
        'blackfooter': '#222224',
