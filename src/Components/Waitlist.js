@@ -8,7 +8,7 @@ import waitlistn from '../assets/images/waitlistn.png'
 
 const Waitlist = () => {
 
-    const APIURL = 'https://homerfoods.app/api/waitlist/add'
+    const APIURL = 'https://main.homerfoods.app/api/waitlist/add'
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [open, setOpen] = useState({
@@ -147,7 +147,6 @@ const Waitlist = () => {
            
         </div>
        </div>
-          {/*FAQ*/}
 
        </div>
     </div>
